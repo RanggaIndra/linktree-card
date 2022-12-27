@@ -1,0 +1,52 @@
+.card {
+  border: 2px solid black;
+  margin: 200px;
+  border-radius: 1em;
+}
+
+.img .container .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.name .container .businessname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 25px;
+}
+
+.list .container .business-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.list .container .business-list button {
+  width: 36em;
+  height: 4em;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.list .container .business-list button:hover {
+  background-color: black;
+  color: white;
+  transition: all 400ms ease;
+}
+
+.socialMedia .container .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  gap: 2em;
+}
